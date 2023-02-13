@@ -1,0 +1,14 @@
+{
+  "name": "10.2_students",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"jest\""
+  },
+  "author": "Oxana",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.4.2"
+  }
+}
