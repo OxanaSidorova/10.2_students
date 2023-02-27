@@ -38,10 +38,10 @@ let sortedNewArray=studentList.sort((a,b)=>{
 console.log(sortedNewArray)
 
 let topStudent = sortedNewArray.reverse().pop()
-topStudent = { name: 'Ivan', score: 35, date: '2022-10-11' }
+// topStudent = { name: 'Ivan', score: 35, date: '2022-10-11' }
 
-// console.log(topStudent)
+console.log(topStudent)
 
 console.log( `Well done ${topStudent.name} you've earned ${topStudent.score} points`)
 
-module.export = studentList
+module.exports = studentList
