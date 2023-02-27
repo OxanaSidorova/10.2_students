@@ -1,4 +1,4 @@
- let students= [
+let students= [
     [
       { "name": "Ivan", "score": 35, "date": "2022-10-11" },
       { "name": "Maria", "score": 5, "date": "2022-10-10" },
@@ -44,4 +44,5 @@ topStudent = { name: 'Ivan', score: 35, date: '2022-10-11' }
 
 console.log( `Well done ${topStudent.name} you've earned ${topStudent.score} points`)
 
-module.export = studentList
+
+module.export = topStudent
